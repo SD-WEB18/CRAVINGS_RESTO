@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MENU | CRAVINGS</title>
+
+  <!-- Bootstrap CSS Link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+  <!-- Custom CSS Link -->
+  <link rel="stylesheet" href="css/utils.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/media.css">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <!-- Header Section Starts -->
+  <header id="title-head">
+    <div class="navigation ">
+      <nav class="navbar sticky-top navbar-expand-lg text-uppercase navbar-light">
+        <a class="navbar-brand" href="#"> <img src="img/cravings1.png" width="80" height="80" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#aboutUs">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#services">Services</a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="menu.html" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Menu<span class="sr-only">(current)</span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="menu.html#indianFood">Indian Food</a>
+                <a class="dropdown-item" href="menu.html#ff_chinese">Fast-Food</a>
+                <a class="dropdown-item" href="menu.html#beverage_drinks">Beverages & Drinks</a>
+                <a class="dropdown-item" href="menu.html#cakes">Cakes</a>
+                <a class="dropdown-item" href="menu.html#desserts">Desserts & Ice-cream</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Food Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#myFooter">Contact</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Order Now</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+    </div>
+
+  </header>
+
+  <!-- Header Section Ends -->
+
+  <!-- Banner Carousel Section Starts -->
+
+  <div id="bannerCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/banner/banner1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/banner/banner2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/banner/banner3.1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/banner/banner4.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/banner/banner5.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <!-- Banner Carousel Section Ends -->
+
+  <!-- Nav Section Starts -->
+  <div class="nav_2">
+    <ul class="nav justify-content-center f-alata">
+      <li class="nav-item">
+        <a class="nav-link active" href="#indianFood">Indian Food</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#ff_chinese">Fast-Food</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#beverage_drinks">Beverages & Drinks</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#cakes">Cakes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#desserts">Desserts & Ice-cream</a>
+      </li>
+    </ul>
+  </div>
+  <!-- Nav Section Ends -->
+  
+  <!-- Cards Section Starts -->
+  <section id="cards" class="s-margin">
+    <!-- Indian Food Section Starts -->
+    <div id="indianFood" class=" topBottom-margin">
+      <h1 class=" c-orange text-center f-lora">Indian Food</h1>
+      <div id="indianFoodCarousel" class="carousel slide" data-ride="carousel" data-interval="5500">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card-deck ">
+              <div class="card">
+                <img src="img/indian-food/samosa.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Samosa</h3>
+                  <p class="card-text"> Per Piece: Rs.15 <br>
+                    One Plate: Rs.20
+                  </p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+              <div class="card">
+                <img src="img/indian-food/vada-pav.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Vada Pav</h3>
+                  <p class="card-text">Per Piece: Rs.15 <br>
+                    One Plate: Rs.25
+                  </p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+              <div class="card">
+                <img src="img/indian-food/pav-bhaji.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Pav Bhaji</h3>
+                  <p class="card-text">Per Plate: Rs.100 <br><br></p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-deck">
+              <div class="card">
+                <img src="img/indian-food/masala-dosa.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Masala Dosa</h5>
+                  <p class="card-text">Per Dish: Rs.150</p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="img/indian-food/chole-bhature.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Chole Bhature</h5>
+                  <p class="card-text">Per Dish: Rs.100</p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+              <div class="card">
+                <img src="img/indian-food/roti-paneer.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Paneer & Roti</h5>
+                  <p class="card-text">Per Plate: Rs.150
+                  </p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-deck">
+              <div class="card">
+                <img src="img/indian-food/veg-kadhai.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Veg Kadhai</h5>
+                  <p class="card-text">Per Dish: Rs.150</p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+              <div class="card">
+                <img src="img/indian-food/veg-thali.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Veg Thali</h5>
+                  <p class="card-text">Per Plate: Rs.175</p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+              <div class="card">
+                <img src="img/indian-food/chicken_biryani.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Chicken Biryani</h5>
+                  <p class="card-text">Per Dish: Rs.150</p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Indian Food Section Ends -->
+
+    <!-- Fast-Food & Chinese Section Starts -->
+    <div id="ff_chinese" class="topBottom-margin">
+      <h1 class="f-lora text-center  c-orange">Fast-Food </h1>
+      <div id="fastFoodCarousel" class="carousel slide" data-ride="carousel" data-interval="5500">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card-deck ">
+              <div class="card">
+                <img src="img/fastfood-chinese/chicken-wing.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Chicken WIngs</h3>
+                  <p class="card-text">Per Dish: Rs.150 <br>
+                  Per Bucket: Rs.200</p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+              <div class="card">
+                <img src="img/fastfood-chinese/momo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Chicken Momos | Veg Momos</h3>
+                  <p class="card-text">Half Plate: Rs.75 <br>
+                    Full Plate: Rs.160
+                  </p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+              <div class="card">
+                <img src="img/fastfood-chinese/burger-combo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Burger Combo Meal</h3>
+                  <p class="card-text">Per Combo: Rs.170 <br><br></p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="card-deck ">
+              <div class="card">
+                <img src="img/fastfood-chinese/cheese_sandwhich.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Cheese Sandwhich</h3>
+                  <p class="card-text">Large Sandwhich: Rs.75 <br>
+                  Medium Sandwhich: Rs.50</p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+              <div class="card">
+                <img src="img/fastfood-chinese/mini-sandwhich.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Mini Sandwhiches</h3>
+                  <p class="card-text">Per Dish: Rs.70 <br><br></p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+              <div class="card">
+                <img src="img/fastfood-chinese/burgerCombo1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Burger & Fries Combo</h3>
+                  <p class="card-text">Per Combo: Rs.150 <br><br></p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-deck ">
+              <div class="card">
+                <img src="img/fastfood-chinese/pizzau.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Veg Cheese Pizza</h3>
+                  <p class="card-text">Large Pizza: Rs.299 <br>
+                  Medium Pizza: Rs.199</p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div> 
+              <div class="card">
+                <img src="img/fastfood-chinese/noodles.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Veg Noodles | Non Veg Noodles</h3>
+                  <p class="card-text">Veg Noodles: Rs.199 <br>
+                  Non-Veg Noodles: Rs.249</p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+              <div class="card">
+                <img src="img/fastfood-chinese/pizza-pepperoni.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Pepperoni Pizza</h3>
+                  <p class="card-text">Large Pizza: Rs.399 <br>
+                  Medium Pizza: Rs.249</p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fast-Food & Chinese Section Ends -->
+ 
+    <!-- Beverages & Drinks Section Starts -->
+    <div id="beverage_drinks" class="topBottom-margin">
+      <h1 class="f-lora text-center  c-orange">Beverages & Drinks</h1>
+      <div id="beverageAndDrinksCarousel" class="carousel slide" data-ride="carousel" data-interval="5500">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="card-deck ">
+              <div class="card">
+                <img src="img/beverage_drinks/orange-juice.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Orange Juice</h3>
+                  <p class="card-text">Full: Rs.70 <br>
+                  Medium: Rs.50</p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div> 
+              <div class="card">
+                <img src="img/beverage_drinks/pappaya.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Pineapple Juice</h3>
+                  <p class="card-text">Full: Rs.70 <br>
+                    Medium: Rs.50</p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+              <div class="card">
+                <img src="img/beverage_drinks/mojito.jpg " class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Mojito</h3>
+                  <p class="card-text">CRAVINGS Special Mojito: Rs.89<br>
+                    Custom Flavoured Mojito: Rs.75 
+                </p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-deck ">
+              <div class="card">
+                <img src="img/beverage_drinks/drinks.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Flavoured Mocktails</h3>
+                  <p class="card-text">CRAVINGS Special Mocktail: Rs.89<br>
+                    Custom Flavoured Mocktail: Rs.75 </p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+              <div class="card">
+                <img src="img/beverage_drinks/choco-shake2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Chocolate Shakes</h3>
+                  <p class="card-text">CRAVINGS Special Choco Shake: Rs.99 <br>
+                    Regular Choco Shake: Rs.59
+                  </p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+              <div class="card">
+                <img src="img/beverage_drinks/drinks2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Cocktails</h3>
+                  <p class="card-text">CRAVINGS Special Cocktail: Rs.119<br>
+                    Custom Flavoured Cocktail: Rs.89 </p></p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Beverages & Drinks Section Ends -->
+
+    <!-- Cakes Section Starts -->
+    <div id="cakes" class="topBottom-margin">
+      <h1 class="f-lora text-center  c-orange">Cakes</h1>
+      <div id="cakesCarousel" class="carousel slide" data-ride="carousel" data-interval="5500">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card-deck ">
+              <div class="card">
+                <img src="img/cakes/cake1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Vanilla & Strawberry Cake</h3>
+                  <p class="card-text">Per Pastrie: Rs.89 <br>
+                    Half Kg Cake: Rs.399</p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+              <div class="card">
+                <img src="img/cakes/choco-cake.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Chocolate Cake</h3>
+                  <p class="card-text">Per Pastrie: Rs.99 <br>
+                    Half Kg Cake: Rs.399</p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+              <div class="card">
+                <img src="img/cakes/cheese-cake.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Cheese Cake</h3>
+                  <p class="card-text">Per Pastrie: Rs.75 <br>
+                    Half Kg Cake: Rs.399</p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-deck ">
+              <div class="card">
+                <img src="img/cakes/cupcakes.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Flavoured Cupcakes</h3>
+                  <p class="card-text">Chocolate Cupcake: Rs.59 <br>
+                    Custom Flavoured Cupcake: Rs.50
+                  </p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+              <div class="card">
+                <img src="img/cakes/brownie.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Chocolate Brownie</h3>
+                  <p class="card-text">Per Piece: Rs.59 <br> 
+                  Per Packet: Rs.299</p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+              <div class="card">
+                <img src="img/cakes/donuts.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Donuts</h3>
+                  <p class="card-text">Per Piece: Rs.69 <br> 
+                    Per Packet: Rs.299.</p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Cakes Section Ends -->
+
+    <!-- Desserts Section Starts -->
+    <div id="desserts" class="topBottom-margin">
+      <h1 class="f-lora text-center  c-orange">Desserts & Ice-cream</h1>
+      <div id="dessertsAndIcecreamCarousel" class="carousel slide" data-ride="carousel" data-interval="5500">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card-deck ">
+              <div class="card">
+                <img src="img/desserts/mango.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Mango Ice-cream</h3>
+                  <p class="card-text">Full: Rs.175 <br>
+                  Half: Rs.99</p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+              <div class="card">
+                <img src="img/desserts/pista.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Pista Ice-cream</h3>
+                  <p class="card-text">Full: Rs.155 <br>
+                    Half: Rs.79
+                  </p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+              <div class="card">
+                <img src="img/desserts/strawberry.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Strawberry Ice-cream</h3>
+                  <p class="card-text">Full: Rs.150 <br>
+                    Half: Rs.75</p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-deck ">
+              <div class="card">
+                <img src="img/desserts/hot-choco-icecream.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Hot Chocolate Dessert</h3>
+                  <p class="card-text">Full: Rs.175 <br>
+                    Half: Rs.99
+                  </p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+              <div class="card">
+                <img src="img/desserts/choco-caremel.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Chocolate and Vanilla with Caremel</h3>
+                  <p class="card-text">Full: Rs.185 <br>
+                    Half: Rs.79</p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+              <div class="card">
+                <img src="img/desserts/jumbo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Jumbo Ice-cream</h3>
+                  <p class="card-text">Full: Rs.199 <br>
+                    Half: Rs.99</p>
+                  <a href="#" class="btn btn-success"><i class="fas fa-phone-alt"></i>&nbsp;Place Order</a>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <!-- Desserts Section Ends -->
+
+  </section>  
+  <!-- Cards Section Ends -->
+
+
+  <!-- Footer Section -->
+  <footer id="myFooter" class="my-container">
+    <h2 class="f-lato text-center c-orange medium-heading">Get In Touch With Cravings</h2>
+
+    <div class="Address">
+      <div class="row">
+        <div class="col-lg-6 p-4">
+          <h3 class="f-alata ">Address:</h3>
+          <p>Panvelkar Pride, Next to Cotton King, Shiv Mandir Road, Shivaji Chowk, Ambernath - East</p>
+          <h5 class="f-alata">Phone No : +91 222 000 1111 , +91 888 2828 999</h5>
+        </div>
+        <div class="col-lg-6 p-4">
+          <h3 class="f-alata ">We even have our branches at :</h3>
+          <p>Mumbai CSMT, Ambernath (E), Ulhasnagar (E), Badlapur (W), Kalyan (E), Dombivli, Thane (E), Thane (W), Panvel, Vashi , Andheri (W)</p>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="socio-icons text-center">
+      <div class="container-fluid">
+        <i class=" fab fa-twitter social-handles "></i>
+        <i class=" fab fa-facebook-f social-handles "></i>
+        <i class=" fab fa-instagram social-handles "></i>
+        <i class=" fas fa-envelope social-handles "></i>
+      </div>
+    </div>
+    <div class="copyright">
+      <p class="text-center  f-lato">© Copyright 2021 Cravings</p>
+    </div>
+  </footer>
+  <!-- Footer Section Ends -->
+
+  <!-- Bootstrap Js Links -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+
+  <!-- Font-Awesome Icons -->
+  <script src="https://kit.fontawesome.com/88230c28cf.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+@media screen and (max-width: 495px) {
+  /* Title Section Starts */
+  .big-heading {
+    font-size: 2.5rem;
+  }
+  /* Title Section Ends */
+}
+
+@media screen and (max-width: 370px) {
+  /* Title Section Starts */
+  .big-heading {
+    font-size: 1.8rem;
+  }
+  /* Title Section Ends */
+}
+
+@media screen and (max-width: 260px) {
+    p{
+        font-size: 1rem;
+    }
+  /* Title Section Starts */  
+  .big-heading {
+    font-size: 1.4rem;
+  }
+  /* Title Section Ends */
+
+  /*Why Us Section Starts  */
+  #whyUs h3 {
+    font-size: 1.5rem;
+    padding: 20px;
+  }
+  /*Why Us Section Ends */
+
+  /* Testimonials Section Starts */
+  .carousel-inner h1 {
+    font-size: 1.5rem;
+  }
+  /* Testimonials Section Ends */
+}
+
+/* Testimonials Section Starts */
+
+@media screen and (max-width: 760px) {
+  .carousel-inner h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Testimonials Section Ends */
+
+/* Food Gallery Page Starts Here */
+
+/* Gallery Section Starts */
+@media screen and (max-width: 765px) { 
+  
+.gallery-child1, .gallery-child2, .gallery-child3, .gallery-child4, .gallery-child5, .gallery-child6, .gallery-child7{
+  display: grid;
+  column-gap: 0.5rem;
+  grid-template-columns: repeat(3,1fr);
+  row-gap: 0.5rem;
+}  
+
+.gallery-child4{
+  grid-template-columns: repeat(2,1fr);
+}
+
+.gallery-child2 :nth-child(4){
+  grid-column: 1 /span 2;
+}
+
+.gallery-child3 :nth-child(2){
+  grid-column: 2 /span 3;
+}
+
+.gallery-child5 :nth-child(4){
+  grid-column: 1 /span 3;
+}
+
+
+}
+
+@media screen and (max-width: 400px) {
+   .g-child{
+     display: grid;
+     column-gap: 0.3rem;
+     grid-template-columns: repeat(2,1fr);
+    }
+
+    .gallery-child2 :nth-child(3), .gallery-child2 :nth-child(5){
+      display: none;
+    }
+
+    .gallery-child3 :nth-child(2){
+       display: none;
+    }
+
+    .gallery-child1 :nth-child(3){
+      grid-column: 1 /span 2;
+   }
+
+   .gallery-child5 :nth-child(4){
+    grid-column: unset;
+  }
+ 
+    
+}
+/* Gallery Section Ends */
+
+/* Food Gallery Page Ends Here */

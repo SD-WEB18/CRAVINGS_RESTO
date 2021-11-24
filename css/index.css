@@ -1,0 +1,131 @@
+/* Header Section Starts*/
+
+/* Title Section Starts */
+ 
+
+/* Title Section Ends */
+
+/* Header Section Ends */
+
+/* Food Carousel Section Starts */
+ 
+#parallax1{
+    height: 85vh;
+    overflow: hidden;
+    text-shadow: 5px 4px 4px rgb(15, 14, 14);
+    position: relative;
+    margin: 20px 0;
+}
+
+#parallax1::before{
+    content: " ";
+    background:  linear-gradient(to right  , rgb(57 61 61), rgb(156 166 167 / 30%),rgb(156 166 167 / 30%), rgb(156 166 167 / 30%),  rgb(156 166 167 / 30%), rgb(156 166 167 / 30%),rgb(57 61 61)), url(../img/carousel5.jpg)no-repeat center center/cover !important;
+    background-size: 100%;
+    display: block;
+    position: absolute !important;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed !important;
+  /* background-size: contain !important; */
+}
+ 
+.p-h1{
+  position: absolute;
+  top: 50px;
+  
+}
+
+#parallax1 h1{
+  margin: 15px ;
+}
+/* Food Carousel Section Ends */
+
+/* About us Section Starts  */
+#aboutUs h1{
+    padding: 20px;
+    text-decoration: underline;
+}
+
+#aboutUs p{
+    padding: 15px 0;
+}
+
+/* About us Section Ends */
+
+/* Parallax Section Starts */
+#parallax2{
+    height: 85vh;
+    overflow: hidden;
+    text-shadow: 5px 4px 4px rgb(15, 14, 14);
+    position: relative;
+    margin: 20px 0;
+}
+
+#parallax2::before{
+  content: " ";
+  background:  linear-gradient(to right  , rgb(57 61 61), rgb(156 166 167 / 30%),rgb(156 166 167 / 30%), rgb(156 166 167 / 30%),  rgb(156 166 167 / 30%), rgb(156 166 167 / 30%),rgb(57 61 61)), url(../img/carousel3.jpg)no-repeat center center/cover !important;
+  background-size: 100%;
+  display: block;
+  position: absolute !important;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed !important;
+/* background-size: contain !important; */
+}
+
+ 
+#parallax2 h1{
+  margin: 15px ;
+}
+ 
+/* Parallax Section Ends */
+
+/* Why Choose us Section Starts */
+#whyUs , #services{
+  padding: 4rem 0;
+}
+
+#whyUs h1 , #services h1{
+  padding: 20px 0;
+  text-decoration: underline;
+}
+
+#whyUs h3 , #services h3{
+  font-size: 2em;
+  padding: 20px;
+}
+
+#whyUs p{
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+/* Why Choose us Section Ends */
+
+/* Testimonials Section Starts */
+.carousel-inner{
+  padding: 3rem 3rem;
+}
+
+.carousel-inner h1{
+  font-size: 2.5rem;
+
+  line-height: 1.5;
+}
+ 
+  .carousel-inner h5{
+  font-family: 'Josefin Sans','Lato', 'Poppins',sans-serif;
+  font-weight: 200 !important; 
+ }  
+/* Testimonials Section Ends */
+
+/* Services Section Starts */
+#services p{
+  font-size: 1rem;
+  text-align: center;
+}
+
+ 
+/* Services Section Ends */

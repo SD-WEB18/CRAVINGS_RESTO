@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans&family=Lato&family=Libre+Baskerville&family=Lora:wght@400;700&family=Poppins:wght@300;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --orange: var(#ec6910);
+
+  /* font-family: 'Alata', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif; */
+
+  --popins: var("Poppins", sans-serif);
+}
+
+/* Margin and Padding Section */
+.my-container {
+  margin: 2.5rem 3rem;
+}
+
+.s-margin{
+  margin: 0 3rem;
+}
+/* Margin and Padding Section Ends */
+
+/* Colors Section */
+.bg-orange {
+  background-color: var(--orange);
+}
+
+.c-white {
+  color: #fff;
+}
+
+.c-orange{
+  color: var(--orange);
+}
+/* Colors Section Ends */
+/* Fonts Section Starts */
+.h-font {
+  font-weight: 900;
+  font-size: 2em;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.medium-heading{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  text-align: justify;
+}
+
+@media screen and (min-width: 768px){
+  p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3em;
+  }
+}
+.f-alata{
+  font-family: 'Alata' ,'Josefin Sans' , "Poppins", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+}
+.f-lora{
+  font-family: 'Lora', Georgia, 'Times New Roman', Times, serif ,serif;
+}
+
+.f-lato{
+  font-family: 'Lato','Poppins', sans-serif;
+}
+
+.f-poppins{
+  font-family: 'Poppins','Lato', sans-serif; 
+}
+
+.list-font{
+  font-size: 1rem;
+}
+/* Fonts Section Ends */
+
+/* Navigation Section Starts*/
+.navbar {
+  position: sticky !important;
+  top: 0 !important;
+  margin: 0rem 3rem;
+  font-family: 'Alata' ,'Josefin Sans' , sans-serif;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+  margin: 0 .7em;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover ,.navbar-light .navbar-nav .active>.nav-link,.nav .nav-item .nav-link{
+  color:  var(--orange) !important;
+   
+}
+ 
+/* Navigation Section Ends */
+
+/* Footer Section Starts */
+#myFooter{
+  margin-top: 4rem ;
+}
+
+#myFooter h2{
+  margin: 4.5rem 3rem; 
+}
+
+.socio-icons{
+  padding: 15px;
+}
+.social-handles{
+  margin: 10px 20px;
+  font-size: medium; 
+}
+ 
+.copyright p{
+  font-size: 1em;
+  margin: 1.5em;
+  font-weight: bold; 
+}
+/* Footer Section Ends */
+
+/* Font-Awesome Icons Section Starts*/
+
+.far, .fab ,.fas{
+  color: #ffc107;
+}
+
+.far:hover, .fab:hover, .fas:hover{
+  color: #ec6910;
+}
+
+/* Font-Awesome Icons Section Ends */
+ 

@@ -1,0 +1,42 @@
+/* Header Section Starts */
+/* Header Section Ends */
+
+/* Banner Carousel Section Starts */
+.carousel-inner{ 
+    padding: 0 ;
+    position: relative;
+    z-index: -1;
+}
+
+@media screen and (min-width: 992px) {
+    
+    #bannerCarousel .carousel-inner .carousel-item img, #bannerCarousel .carousel-inner .carousel-item.active img{
+        height: 82vh;
+    }
+}
+
+/* Banner Carousel Section Ends */
+
+/* Nav2 Section Starts */
+.nav_2{
+    font-weight: bold;
+}
+/* Nav2 Section Ends */
+
+/* Cards Section Starts */
+.card-deck .card{
+    margin: 1em ;
+}
+.card-deck .card .card-img-top{
+    height: 300px !important;
+}
+ .card-footer{
+    display: none;
+}
+ 
+
+.topBottom-margin{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+/* Cards Section Ends */
